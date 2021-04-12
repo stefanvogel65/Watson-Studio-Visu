@@ -34,7 +34,6 @@ Upload the data set as a new asset:
 
 ## Step 4: Basic visualization in Watson Studio
 
-
 To view the data set, locate the data asset and then click the name of the data set to open it.
 
 Watson Studio shows you a preview of the data in the Preview tab.
@@ -46,6 +45,10 @@ Alternatively, the Profile tab gives you profiling information that shows the di
 Create a profile for the first time:
 
 <img src="https://user-images.githubusercontent.com/35991100/114369856-19be8400-9b7f-11eb-9fe4-71fc8d91c758.png" alt="drawing" width="75%"/>
+
+After a while, the profile is displayed:
+
+<img src="https://user-images.githubusercontent.com/35991100/114426140-0b418e00-9bba-11eb-876c-bf6e01b4a449.png" alt="drawing" width="75%"/>
 
 Notice that although the numerical columns are identified to be of type varchar, the profiler is smart enough to recognize these to be numerical columns, convert them implicitly, and compute the mean and the standard deviation.
 
@@ -101,23 +104,9 @@ This should result in a dashboard similar to the following image. Notice that yo
 
 The dashboards are dynamic by nature and support exploration of the data using filters. In the visualization that shows International Plan, click the slice associated with the value "yes". This creates a filter that will apply to all other (connected) visualizations on the current dashboard.
 
+<img src="https://user-images.githubusercontent.com/35991100/114426566-7e4b0480-9bba-11eb-9e75-b45a4d70f1f1.png" alt="drawing" width="75%"/>
 
 [//]: # (Use this to insert images: <img src="" alt="drawing" width="75%"/>)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
