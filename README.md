@@ -1,4 +1,4 @@
-# Visulization in Watson Studio, Tutorial
+# Visualization in Watson Studio, Tutorial
 
 This is a simple intro into Watson Studio on IBM Cloud and a guide to get started with visulizing data with no code using Cognos Dashboard embedded.
 
