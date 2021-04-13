@@ -1,6 +1,6 @@
 # Visualization in Watson Studio, Tutorial
 
-This is a simple intro into Watson Studio on IBM Cloud and a guide to get started with visulizing data with no code using Cognos Dashboard embedded.
+This is a simple intro into Watson Studio on IBM Cloud with a guide to get started with visualizing data with no code using Cognos Dashboard embedded.
 
 ## Step 1: Login and create Watson Studio Service
 
@@ -52,7 +52,9 @@ After a while, the profile is displayed:
 
 Notice that although the numerical columns are identified to be of type varchar, the profiler is smart enough to recognize these to be numerical columns, convert them implicitly, and compute the mean and the standard deviation.
 
-Notice that the churn parameter does not provide a balanced distribution of churn and no-churn observations. This might mean that you should adopt cross-validation strategies during the model building and evaluation phase.
+Notice that the churn parameter does not provide a balanced distribution of churn and no-churn observations. We create a couple of visualization and start to explore the churn behavior in more detail.
+
+<img src="https://user-images.githubusercontent.com/35991100/114505071-1e8f4080-9c30-11eb-8a2e-044d27b6a290.png" alt="drawing" width="30%"/>
 
 ## Step 5: More visualizations using the Cognos Dashboard service
 
@@ -72,7 +74,7 @@ Add the churn data as a data source. You can preview the data at the bottom of t
 
 <img src="https://user-images.githubusercontent.com/35991100/114374498-fc3fe900-9b83-11eb-9589-e5a693053dd6.png" alt="drawing" width="75%"/>
 
-Notice that you can view and change the properties of the columns. Simply click the 3 dots to the right of the column name, then select Properties in the pop-up menu. This displays a window as shown above, and allows you to alter the default setting for Usage (Identifier, Attribute, and Measure) and Aggregate Function (Count, Count Distinct, Maximum, and Minimum). For now, you should be fine with the default settings.
+Notice that you can view and change the properties of the columns. Simply click the 3 dots to the right of the column name, then select Properties in the pop-up menu. This displays a window as shown above and allows you to alter the default setting for Usage (Identifier, Attribute, and Measure) and Aggregate Function (Count, Count Distinct, Maximum, and Minimum). For now, you should be fine with the default settings.
 
 To create a visualization that shows the distribution of churns and no-churns as a pie chart, select the Visualizations icon in the toolbar to the left.
 
@@ -84,11 +86,11 @@ Select the Sources icon in the toolbar to the left (located above the Visualizat
 
 <img src="https://user-images.githubusercontent.com/35991100/114375823-5a210080-9b85-11eb-9a3f-ac55eb14f8be.png" alt="drawing" width="75%"/>
 
-Click the Expand button on the pie chart to maximaize it.
+Click the Expand button on the pie chart to maximize it.
 
 <img src="https://user-images.githubusercontent.com/35991100/114377021-7cffe480-9b86-11eb-9edb-650cfd979df4.png" alt="drawing" width="75%"/>
 
-Open the Properties view and select to display a titel under the General tab. Enter a meaningful title.
+Open the Properties view and select to display a title under the General tab. Enter a meaningful title.
 
 <img src="https://user-images.githubusercontent.com/35991100/114377375-e1bb3f00-9b86-11eb-928b-39def51cce10.png" alt="drawing" width="75%"/>
 
@@ -105,6 +107,27 @@ This should result in a dashboard similar to the following image. Notice that yo
 The dashboards are dynamic by nature and support exploration of the data using filters. In the visualization that shows International Plan, click the slice associated with the value "yes". This creates a filter that will apply to all other (connected) visualizations on the current dashboard.
 
 <img src="https://user-images.githubusercontent.com/35991100/114426566-7e4b0480-9bba-11eb-9e75-b45a4d70f1f1.png" alt="drawing" width="75%"/>
+
+You might want to explore other charts on the data.
+
+## Step 6: Sharing your work
+
+In Watson Studio you can easily share your project with collaborators. Invite collaborators in the Access Control tab of your project.
+
+<img src="https://user-images.githubusercontent.com/35991100/114506203-c0fbf380-9c31-11eb-8b8d-3aba9065e519.png" alt="drawing" width="75%"/>
+
+You can share a dashboard publicly. For this, set it to share...
+
+<img src="https://user-images.githubusercontent.com/35991100/114506560-44b5e000-9c32-11eb-9869-4054ce5dd326.png" alt="drawing" width="75%"/>
+
+... and select to "Share with anyone who has the link".
+
+<img src="https://user-images.githubusercontent.com/35991100/114507027-da516f80-9c32-11eb-9ca1-b51bd405867f.png" alt="drawing" width="50%"/>
+
+Now, you can share the link also with externals who can now see and interact with the dashboard.
+
+Detailed instructions on how to use Refine, a no-code tool to transform and cleanse data in Watson Studio, and how to automatically build models can be followed starting from section "Data preparation and transformation using Refine" of the [Data visualization, preparation, and transformation tutorial](https://developer.ibm.com/tutorials/watson-studio-data-visualization-preparation-transformation/) and the coresponding learning path.
+
 
 [//]: # (Use this to insert images: <img src="" alt="drawing" width="75%"/>)
 
