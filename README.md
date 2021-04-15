@@ -1,10 +1,10 @@
 # Visualization in Watson Studio, Tutorial
 
-This is a simple intro into Watson Studio on IBM Cloud with a guide to get started with visualizing data with no code using Cognos Dashboard embedded.
+This is an introduction into Watson Studio on IBM Cloud with a step-by-step guide to get started with visualizing data with no code using Cognos Dashboard embedded. It is a condensed version of the more detailed instructions in this [tutorial](https://developer.ibm.com/tutorials/watson-studio-data-visualization-preparation-transformation/)
 
 ## Step 1: Login and create Watson Studio Service
 
-When ready, start Watson Studio:
+If you did not do so already, login to IBM Cloud and create a Watson Studio service. When ready, start Watson Studio:
 
 <img src="https://user-images.githubusercontent.com/35991100/114362811-0d82f880-9b78-11eb-9f64-3f84e3924bbc.png" alt="drawing" width="75%"/>
 
@@ -14,7 +14,7 @@ Start Watson Studio and create a new project.
 
 <img src="https://user-images.githubusercontent.com/35991100/114353808-be37ca80-9b6d-11eb-88e0-ffc655ff7de9.png" alt="drawing" width="75%"/>
 
-Select Create an empty project and give it a name.
+Select "Create an empty project" and give it a name.
 
 Under Settings, add a Dashboard as a new service.
 
@@ -74,7 +74,11 @@ Add the churn data as a data source. You can preview the data at the bottom of t
 
 <img src="https://user-images.githubusercontent.com/35991100/114374498-fc3fe900-9b83-11eb-9589-e5a693053dd6.png" alt="drawing" width="75%"/>
 
-Notice that you can view and change the properties of the columns. Simply click the 3 dots to the right of the column name, then select Properties in the pop-up menu. This displays a window as shown above and allows you to alter the default setting for Usage (Identifier, Attribute, and Measure) and Aggregate Function (Count, Count Distinct, Maximum, and Minimum). For now, you should be fine with the default settings.
+Notice that you can view and change the properties of the columns. Simply click the 3 dots to the right of the column name, then select Properties in the pop-up menu. 
+
+<img src="https://user-images.githubusercontent.com/35991100/114830269-58954980-9dcc-11eb-8d52-a1374ce2fe5c.png" alt="drawing" width="30%"/>
+
+This displays a window as shown above and allows you to alter the default setting for Usage (Identifier, Attribute, and Measure) and Aggregate Function (Count, Count Distinct, Maximum, and Minimum). For now, you should be fine with the default settings.
 
 To create a visualization that shows the distribution of churns and no-churns as a pie chart, select the Visualizations icon in the toolbar to the left.
 
@@ -125,6 +129,8 @@ You can share a dashboard publicly. For this, set it to share...
 <img src="https://user-images.githubusercontent.com/35991100/114507027-da516f80-9c32-11eb-9ca1-b51bd405867f.png" alt="drawing" width="50%"/>
 
 Now, you can share the link also with externals who can now see and interact with the dashboard.
+
+## Outlook
 
 Detailed instructions on how to use Refine, a no-code tool to transform and cleanse data in Watson Studio, and how to automatically build models can be followed starting from section "Data preparation and transformation using Refine" of the [Data visualization, preparation, and transformation tutorial](https://developer.ibm.com/tutorials/watson-studio-data-visualization-preparation-transformation/) and the coresponding learning path.
 
