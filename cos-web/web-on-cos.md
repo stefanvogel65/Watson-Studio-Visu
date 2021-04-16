@@ -27,7 +27,7 @@ Confirm to enable the public access policy.
 
 Note that now all objects in the bucket are publically accessible.
 
-# Step 4: View the content in a browser
+## Step 4: View the content in a browser
 
 In the list of object in the bucket, select the index.html to show its details. In the details Overview tab copy the public URL for the object.
 
