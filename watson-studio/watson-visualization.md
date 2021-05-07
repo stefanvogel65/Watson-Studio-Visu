@@ -2,6 +2,11 @@
 
 This is an introduction into Watson Studio on IBM Cloud with a step-by-step guide to get started with visualizing data with no code using Cognos Dashboard embedded. It is a condensed version of the more detailed instructions in this [tutorial](https://developer.ibm.com/tutorials/watson-studio-data-visualization-preparation-transformation/)
 
+## Checking prerequisites
+
+In case you do not yet have a working Watson Studio already, before you start it for the first time, make sure you run this pre-requisite check.
+
+
 ## Step 1: Login and create Watson Studio Service
 
 If you did not do so already, login to IBM Cloud and create a Watson Studio service. When ready, start Watson Studio:
