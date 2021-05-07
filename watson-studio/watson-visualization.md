@@ -4,7 +4,7 @@ This is an introduction into Watson Studio on IBM Cloud with a step-by-step guid
 
 ## Checking prerequisites
 
-In case you do not yet have a working Watson Studio already, before you start it for the first time, make sure you run this pre-requisite check.
+In case you do not yet have a working Watson Studio already, before you start it for the first time, make sure you run [this pre-requisite check](ws-prereqs.md).
 
 
 ## Step 1: Login and create Watson Studio Service
@@ -24,6 +24,11 @@ Select "Create an empty project" and give it a name.
 Under Settings, add a Dashboard as a new service.
 
 <img src="https://user-images.githubusercontent.com/35991100/114363214-78ccca80-9b78-11eb-8c20-b47c94c28bfe.png" alt="drawing" width="75%"/>
+
+If you created a Cognos Dashboard Embedded service already before (you can check in your resource list of IBM Cloud) and you do not see it in the list of Assotiate service, make sure to reset the "Filter by" settings. E.g. by default, the location filter is set like in the following screen shot which prevents you from 
+viewing the Cognos Dashboard Embedded service in another location:
+
+<img src="https://user-images.githubusercontent.com/35991100/117414488-7b240980-af17-11eb-95bd-fa62d3027d4f.png" alt="drawing" width="75%"/>
 
 If you did not yet created a Cognos Dashboard Embedded service, create one now. If it exists, associate it with your project.
 
